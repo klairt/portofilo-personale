@@ -2,13 +2,13 @@
 
 /* Variabili CSS */
 :root {
-    --primary-color: #4a6fa5;
-    --secondary-color: #6c757d;
-    --accent-color: #47b8e0;
+    --primary-color: #a55f4a;
+    --secondary-color: #c9b8aa;
+    --accent-color: #9e7373;
     --dark-color: #343a40;
-    --light-color: #f8f9fa;
-    --success-color: #28a745;
-    --danger-color: #dc3545;
+    --light-color: #faf8f8;
+    --success-color: #d19776;
+    --danger-color: #a0676d;
     --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --transition: all 0.3s ease;
 }
@@ -88,7 +88,7 @@ ul {
 }
 
 .btn.primary:hover {
-    background-color: #3a5a80;
+    background-color: #ce9999;
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -99,7 +99,7 @@ ul {
 }
 
 .btn.secondary:hover {
-    background-color: #5a6268;
+    background-color: #ca8c8c;
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -419,7 +419,7 @@ nav ul li a:hover::after {
 .form-group input, .form-group textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ced4da;
+    border: 1px solid #977676;
     border-radius: 5px;
     font-family: var(--font-main);
     font-size: 1rem;
@@ -428,7 +428,7 @@ nav ul li a:hover::after {
 .form-group input:focus, .form-group textarea:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(74, 111, 165, 0.2);
+    box-shadow: 0 0 0 3px rgba(218, 122, 122, 0.2);
 }
 
 /* Footer */
